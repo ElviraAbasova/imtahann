@@ -1,0 +1,356 @@
+#hero{
+    position: relative;
+    height: max-content;
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 400px 0;
+        h1{
+            color: white;
+            font-size: 50px;
+            span{
+                background-color: rgb(255, 196, 0) ;
+                padding: 10px;
+            }
+        }
+        .boxes{
+            margin-top: 400px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .box{
+                background-color: rgb(48, 48, 48);
+                display: flex;
+                align-items: center;
+                padding: 20px 40px;
+                gap: 20px;
+                
+                img{
+                    width: 50px;
+                }
+                .right{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+#courses{
+    .container{
+        padding: 100px 0;
+        display: flex;
+        flex-direction: column;
+        .top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .line{
+                width: 50px;
+                border: 2px solid rgb(255, 196, 0);
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+        }
+        .cards{
+            margin-top: 70px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            .card{
+                display: flex;
+                flex-direction: column;
+
+                .img{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .center{
+                    background-color: whitesmoke;
+                    text-align: center;
+                    padding: 30px 10px;
+                    h4{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: gray;
+                    }
+                }
+                .bottom{
+                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: rgb(192, 192, 192);
+                    .profile{
+                        padding: 5px;
+                        width: 50px;
+                        height: 50px;
+                        img{
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+                    }
+                    p{
+                        font-size: 16px;
+                        span{
+                            padding-left: 10px;
+                            color: gray;
+                        }
+                    }
+                    .price{
+                        background-color: rgb(255, 196, 0);
+                        color: white;
+                        font-size: 20px;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+#form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .left{
+        text-align: center;
+        padding: 150px 320px;
+        background-color: rgb(255, 196, 0);
+        h3{
+            font-size: 35px;
+            color: white;
+            span{
+                color: black;
+            }
+        }
+        p{
+            font-size: 14px;
+            margin-top: 20px;
+            color: white;
+        }
+        button{
+            padding: 10px 20px;
+            margin-top: 50px;
+            background-color: rgb(48, 48, 48);
+            color: white;
+            font-size: 14px;
+        }
+    }
+    .right{
+        background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+        background-size: cover;
+        padding: 100px;
+        text-align: center;
+        h3{
+            font-size: 35px;
+            font-weight: 600;
+        }
+        form{
+      
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            input{
+                width: 50%;
+                padding: 10px;
+            }
+            button{
+                background-color: rgb(255, 196, 0);
+                padding: 10px;
+                width: 50%;
+                color: white;
+            }
+        }
+    }
+}
+
+#services{
+    .container{
+        padding: 100px 0;
+        .top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .line{
+                width: 50px;
+                border: 2px solid rgb(255, 196, 0);
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+        }
+        .services{
+            padding-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 50px;
+            .service{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                img{
+                    width: 60px;
+                }
+                h4{
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+                p{
+                    color: gray;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+#events{
+    .container{
+        padding: 100px 0;
+        .top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .line{
+                width: 50px;
+                border: 2px solid rgb(255, 196, 0);
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+        }
+        .events{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .event{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                .day{
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid rgb(255, 196, 0);
+                    background-color: transparent;
+                    h3{
+                        font-size: 45px;
+                        color:rgb(255, 196, 0);
+                        font-weight: 700;
+                    }
+                    h4{
+                        font-size: 25px;
+                        color:rgb(255, 196, 0);
+                        font-weight: 700;
+
+                    }
+                }
+                .center{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    h3{
+                        font-size: 25px;
+                        font-weight: 600;
+                    }
+                    p{
+                        padding-top: 30px;
+                        color: gray;
+                    }
+                }
+                .img{
+                    width: 200;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+      
+            
+            
+        }
+    }
+
+
+
+    @media only screen and (max-width: 1000px) {
+        #form{
+            .left{
+                padding: 100px;
+
+            }
+        }
+
+    }    
+
+@media only screen and (max-width: 600px) {
+    #hero{
+     .container{
+        h1{
+            text-align: center;
+            font-size: 30px;
+        }
+        .boxes{
+            flex-direction: column;
+        }
+     }
+    }
+    #courses{
+        .container{
+            .cards{
+                padding: 30px;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    #form{
+        grid-template-columns: 1fr;
+        .left{
+            padding: 100px;
+
+        }
+    }
+    #services{
+        .container{
+            .services{
+                grid-template-columns: 1fr 1fr;
+                padding: 30px;
+            }
+        }
+    }
+    #events{
+        .container{
+            .events{
+                .event{
+                    flex-direction: column;
+                }
+            }
+
+        }
+    }
+   }
